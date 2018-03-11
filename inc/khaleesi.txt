@@ -1,0 +1,178 @@
+
+    <div class="calisi-container">
+        <div class="calisi-nome-personaggio">
+            <div class="calisi-collana_esterna"></div>
+            <div class="calisi-collana_esterna2"></div>
+            <div class="calisi-figure">
+                <div class="calisi-manica_sx"></div>
+                <div class="calisi-manica_dx"></div>
+                <div class="calisi-manica_sx_up"></div>
+                <div class="calisi-scollatura3"></div>
+                <div class="calisi-scollatura2"></div>
+                <div class="calisi-scollatura"></div>
+                <div class="calisi-collana">
+                    <div class="calisi-collanasx"></div>
+                    <div class="calisi-collanasx2"></div>
+                    <div class="calisi-collanasx3"></div>
+                    <div class="calisi-collanasx4"></div>
+                    <div class="calisi-collanasx5"></div>
+                    <div class="calisi-collanasx6"></div>
+                    <div class="calisi-collanasx7"></div>
+                    <div class="calisi-collanasx8"></div>
+                    <div class="calisi-collanasx9"></div>
+                    <div class="calisi-collanasx10"></div>
+                    <div class="calisi-collanasx11"></div>
+                    <div class="calisi-collanasx12"></div>
+               </div>
+                <div class="calisi-tettasx"></div>
+                <div class="calisi-tettadx"></div>
+                <div class="calisi-tettasx2"></div>
+                <div class="calisi-tettadx2"></div>
+                <div class="calisi-mantello_calisi-dx"></div>
+                <div class="calisi-mantello_calisi-dx-up"></div>
+                <div class="calisi-ombra-f"></div>
+           </div>
+            
+            <div class="calisi-mantello_calisi-sx"></div>
+            <div class="calisi-mantello_calisi-sx-up"></div>
+            <div class="calisi-mantello_calisi-dx100"></div>
+            <div class="calisi-mantello_calisi-dx2-up"></div>
+            <div class="calisi-orecchio-sx"></div>
+            <div class="calisi-orecchio-dx"></div>
+            <div class="calisi-face">
+                <div class="calisi-eye-dx">
+                    <div class="calisi-eye-dx1"></div>
+                    <div class="calisi-eye-dx2"></div>
+                    <div class="calisi-eye-dx3"></div>
+                    <div class="calisi-eye-dx4"></div>
+                    <div class="calisi-eye-dx5"></div>
+                    <div class="calisi-eye-dx6"></div>
+                    <div class="calisi-eye-dx7"></div>
+                    <div class="calisi-eye-dx8"></div>
+                    <div class="calisi-eye-dx9"></div>
+                    <div class="calisi-eye-dx10"></div>
+                    <div class="calisi-occhio_dx"></div>
+                </div>
+                <div class="calisi-eye-sx">
+                    <div class="calisi-eye-sx1"></div>
+                    <div class="calisi-eye-sx2"></div>
+                    <div class="calisi-eye-sx3"></div>
+                    <div class="calisi-eye-sx4"></div>
+                    <div class="calisi-eye-sx5"></div>
+                    <div class="calisi-eye-sx6"></div>
+                    <div class="calisi-eye-sx7"></div>
+                    <div class="calisi-eye-sx8"></div>
+                    <div class="calisi-eye-sx9"></div>
+                    <div class="calisi-eye-sx10"></div>
+                    <div class="calisi-occhio_sx"></div>
+                </div>
+                <div class="calisi-copriciglia"></div>
+                
+                <div class="calisi-mouth">
+                    <div class="calisi-labbro-up_sx"></div>
+                    <div class="calisi-labbro-up_dx"></div>
+                    <div class="calisi-labbro-down"></div>
+                    <div class="calisi-labbro-up_sx-b"></div>
+                    <div class="calisi-labbro-up_dx-b"></div>
+                    <div class="calisi-labbro-down-b"></div>
+                    <div class="calisi-labbro-down-b2"></div>
+                   
+                </div>
+            </div>            
+            <div class="calisi-hair1c"></div>
+            <div class="calisi-hair18c"></div>
+            <div class="calisi-hair19c"></div>
+            <div class="calisi-hair20c"></div>
+            <div class="calisi-hair21c"></div>
+            <div class="calisi-hair22c"></div>
+            <div class="calisi-hair-b-sx1">
+                <div class="calisi-hair17c"></div>
+                <div class="calisi-hair3c"></div>
+                <div class="calisi-hair4c"></div>
+                <div class="calisi-hair5c"></div>
+                <div class="calisi-hair6c"></div>
+                <div class="calisi-hair7c"></div>
+           </div>
+            <div class="calisi-hair-b-sx2">
+                <div class="calisi-hair10c"></div>
+                <div class="calisi-hair11c"></div>
+                <div class="calisi-hair12c"></div>
+                <div class="calisi-hair13c"></div>
+                <div class="calisi-hair14c"></div>
+                <div class="calisi-hair15c"></div>
+                <div class="calisi-hair16c"></div>
+           </div>
+            <div class="calisi-hair-b-sx3">
+                <div class="calisi-hair3c"></div>
+                <div class="calisi-hair4c"></div>
+                <div class="calisi-hair5c"></div>
+                <div class="calisi-hair6c"></div>
+                <div class="calisi-hair7c"></div>
+                <div class="calisi-hair8c"></div>
+                <div class="calisi-hair9c"></div>
+           </div>
+            <div class="calisi-hair-b-sx4">
+                <div class="calisi-hair3c"></div>
+                <div class="calisi-hair4c"></div>
+                <div class="calisi-hair5c"></div>
+                <div class="calisi-hair6c"></div>
+                <div class="calisi-hair7c"></div>
+                <div class="calisi-hair8c"></div>
+                <div class="calisi-hair9c"></div>
+           </div>
+            <div class="calisi-hair-b-sx5">
+                <div class="calisi-hair10c"></div>
+                <div class="calisi-hair11c"></div>
+                <div class="calisi-hair12c"></div>
+                <div class="calisi-hair13c"></div>
+                <div class="calisi-hair14c"></div>
+           </div>
+            <div class="calisi-hair-b-sx6">
+                <div class="calisi-hair3c"></div>
+                <div class="calisi-hair4c"></div>
+                <div class="calisi-hair5c"></div>
+                <div class="calisi-hair6c"></div>
+                <div class="calisi-hair7c"></div>
+                <div class="calisi-hair8c"></div>
+            </div>
+            <div class="calisi-hair23c"></div>
+            <div class="calisi-hair24c"></div>
+            <div class="calisi-hair25c"></div>
+            <div class="calisi-hair26c"></div>
+            <div class="calisi-hair27c"></div>
+            <div class="calisi-hair28c"></div>
+            <div class="calisi-hair29c"></div>
+            <div class="calisi-hair30c"></div>
+            <div class="calisi-hair31c"></div>
+            <div class="calisi-hair32c"></div>
+           
+        <div class="calisi-animazione-f1">
+            <div class="calisi-fiamma-a2"></div>
+            <div class="calisi-fiamma-as2"></div>
+        </div>
+        <div class="calisi-animazione-f2">
+        <div class="calisi-fiamma-a1"></div>
+            <div class="calisi-fiamma-a3"></div>
+            <div class="calisi-fiamma-a2"></div>
+            <div class="calisi-fiamma-as5"></div>
+        </div>
+        <div class="calisi-animazione-f3">
+            <div class="calisi-fiamma-a4"></div>
+            <div class="calisi-fiamma-as4"></div>
+            <div class="calisi-fiamma-as6"></div>
+        </div>
+        <div class="calisi-animazione-f4">
+            <div class="calisi-fiamma-a6"></div>
+            <div class="calisi-fiamma-as3"></div>
+        </div>
+        <div class="calisi-animazione-f5">
+            <div class="calisi-fiamma-as1"></div>
+        </div>
+        <div class="calisi-animazione-f6">
+            <div class="calisi-fiamma-a5"></div>
+            <div class="calisi-fiamma-as2"></div>
+        </div>
+            
+            <div class="calisi-fiamma-as6-grande"></div>
+        </div>
+    </div>

@@ -1,0 +1,905 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+#pg-goku .container{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: floralwhite;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 40px auto;
+    z-index: -100;
+/*    border: 5px solid floralwhite;*/
+/*    transform: scale(5);*/
+
+}
+div{
+    position: absolute;
+}
+#pg-goku .container:before{
+    content: '';
+    position: absolute;
+    background-color: floralwhite;
+    width: 200px;
+    height: 200px;
+    top: 70px;
+    left: -80px;
+    z-index: -12;
+	
+}
+
+#pg-goku .goku{
+    width: 70%;
+    height: 70%;
+    bottom: 0px;
+    left:15%;
+}
+
+#pg-goku .face{
+    width: 70%;
+    height: 65%;
+    background-color:#FBE1D5;
+    border-radius: 50%;
+    left: 15%;
+}
+#pg-goku .face:before,#pg-goku  .face:after{
+    content:"";
+    position:absolute;
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fccdb7;
+    z-index: -5;
+}
+#pg-goku .face:before{
+    left:-6px;
+    top:38px;
+}
+#pg-goku .face:after{
+    top: 38px;
+    left: 80px;
+}
+#pg-goku .eye-sx {
+    width:30px;
+    height: 15px;
+    top: 35px;
+    left: 12px;
+    overflow: hidden;
+    background-color: #fff;
+}
+#pg-goku .eye-sx:after{
+    content: " ";
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    top: -3px;
+    left: 0px;
+    background-color: #fbe1d5;
+    transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+
+}
+#pg-goku .pupilla-sx{
+    width: 7px;
+    height: 7px;
+    top: 9px;
+    left: 15px;
+    border-radius: 50%;
+    background-color: #000;
+    animation: occhi-sayan 5s infinite;
+    -webkit-animation: occhi-sayan 5s infinite;
+}
+#pg-goku .eyebrows-sx{
+    width: 22px;
+    height: 30px;
+    top: 32px;
+    left: 13px;
+    border-radius: 10px 1px/ 30px 11px;
+    
+    border-right: 5px solid #212020;
+    transform: rotate(-65deg);
+    -webkit-transform: rotate(-65deg);
+    animation: eyebrows-sayan 5s infinite,inclinasx 5s infinite;
+    -webkit-animation: eyebrows-sayan 5s infinite,inclinasx 5s infinite;
+}
+#pg-goku .eye-dx {
+    width:30px;
+    height: 15px;
+    top: 35px;
+    left: 56px;
+    overflow: hidden;
+    background-color: #fff;
+}
+#pg-goku .eye-dx:after{
+    content: " ";
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    top: -9px;
+    left: -7px;
+    background-color: #fbe1d5;
+    transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+
+}
+#pg-goku .pupilla-dx{
+    width: 7px;
+    height: 7px;
+    top: 9px;
+    left: 9px;
+    border-radius: 50%;
+    background-color: #000;
+    animation: occhi-sayan 5s infinite;
+    -webkit-animation: occhi-sayan 5s infinite;
+}
+#pg-goku .eyebrows-dx{
+    width: 22px;
+    height: 30px;
+    top: 32px;
+    left: 58px;
+    border-radius: 10px 0px/ 30px 10px;
+    border-right: 5px solid #212020;
+    transform: scaleY(-1) rotate(115deg);
+    -webkit-transform: scaleY(-1) rotate(115deg);
+    z-index: 2;
+    animation: eyebrows-sayan 5s infinite, inclinadx 5s infinite;
+    -webkit-animation: eyebrows-sayan 5s infinite, inclinadx 5s infinite;
+
+}
+#pg-goku .mouth{
+    width: 20px;
+    height: 10px;
+    background-color: #fcb2b2;
+    border-radius: 0 0 20px 20px;
+    top: 65px;
+    left: 50%;
+    margin-left: -10px;
+    animation: mouth 5s infinite;
+    -webkit-animation: mouth 5s infinite;
+}
+#pg-goku .hair{
+    width: 65px;
+    height:21px;
+    left: 41px;
+    top: 0px;
+    border-radius: 50%;
+    background-color: #212020;
+    z-index: 10;
+}
+
+#pg-goku .hair1{
+    width: 80px;
+    height: 80px;
+    top: -58px;
+    left: -40px;
+    background-color: transparent;
+    box-shadow: 28px 27px 0px 28px #212020;
+    -webkit-box-shadow: 28px 27px 0px 28px #212020;
+    -moz-box-shadow: 28px 27px 0px 28px #212020;
+    
+/*    border: 1px solid black;*/
+    border-radius:50%;
+    z-index: -13;
+/*    border-right:35px solid #212020;*/
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    overflow: hidden;
+}
+#pg-goku .hair1-o{
+    width: 29px;
+    height: 40px;
+    top: -35px;
+    left: 40px;
+    background-color: transparent;
+    border-radius:5px 80px 0px 5px;
+    border-right:10px solid rgba(186, 183, 183, 0.31);
+    border-bottom-color: #212020;
+    transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+
+}
+#pg-goku .hair2{
+    width: 50px;
+    height:50px;
+    top: 0px;
+    left: -32px;
+    background-color: transparent;
+    border-radius:50%;
+/*    border-right:34px solid #212020;*/
+    box-shadow: 20px 10px 0px 15px #212020;
+    -webkit-box-shadow: 20px 10px 0px 15px #212020;
+    -moz-box-shadow: 20px 10px 0px 15px #212020;
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    z-index: -8;
+}
+#pg-goku .hair2:after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height:60px;
+    top: 35px;
+    left: -10px;
+    background-color: floralwhite;
+    z-index: -8;
+}
+#pg-goku .hair2-o{
+    width: 25px;
+    height:30px;
+    top: -11px;
+    left: 6px;
+    background-color: transparent;
+    border-radius:15px 580px 0px 10px;
+    border-right:10px solid rgba(186, 183, 183, 0.3);
+    transform: rotate(-28deg);
+    -webkit-transform: rotate(-28deg);
+    
+    z-index: -8;
+}
+#pg-goku .hair3{
+    width: 60px;
+    height:42px;
+    top: -8px;
+    left:53px;
+    background-color: #212020;
+    border-radius: 50%;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+}
+#pg-goku .hair3:after{
+    content: ' ';
+    position: absolute;
+    width: 60px;
+    height: 19px;
+    top: 24px;
+    left: 5px;
+    background-color: #fbe1d5;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+}
+#pg-goku .hair4{
+    width: 30px;
+    height: 50px;
+    top: 30px;
+    left: -15px;
+    background-color: transparent;
+    border-radius:50%;
+/*    border-right:30px solid ;*/
+    box-shadow: 13px 15px 0px 10px #212020;
+    -webkit-box-shadow: 13px 15px 0px 10px #212020;
+    -moz-box-shadow: 13px 15px 0px 10px #212020;
+    transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    z-index: -8;
+}
+#pg-goku .hair4:after{
+    content: '';
+    position: absolute;
+    background-color: floralwhite;
+    width: 50px;
+    height: 50px;
+    top: 35px;
+}
+#pg-goku .hair5{
+    width: 15px;
+    height: 50px;
+    top: 45px;
+    left: 15px;
+    background-color: transparent;
+    border-radius:5px 40px 0px 10px;
+    box-shadow: 11px 8px 0px 10px #212020;
+    -webkit-box-shadow: 11px 8px 0px 10px #212020;
+    -moz-box-shadow: 11px 8px 0px 10px #212020;
+/*    border-right:25px solid #212020;*/
+    transform: rotate(-50deg);
+    -webkit-transform: rotate(-50deg);
+    z-index: -8;
+}
+#pg-goku .hair6{
+    width: 45px;
+    height: 45px;
+    top: 63px;
+    left: 102px;
+    background-color: transparent;
+    border-radius:5px 40px 40px 10px;
+    box-shadow: -11px -8px 0px 10px #212020;
+    -webkit-box-shadow: -11px -8px 0px 10px #212020;
+    -moz-box-shadow: -11px -8px 0px 10px #212020;
+    transform: rotate(-50deg);
+    -webkit-transform: rotate(-50deg);
+    z-index: -8;
+}
+#pg-goku .hair6:after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    background-color: floralwhite;
+    top: 30px;
+}
+#pg-goku .hair7{
+    width: 45px;
+    height: 45px;
+    top: 52px;
+    left: 115px;
+    background-color: transparent;
+    border-radius:5px 40px 30px 10px;
+    box-shadow: -15px -8px 0px 10px #212020;
+    -webkit-box-shadow: -15px -8px 0px 10px #212020;
+    -moz-box-shadow: -15px -8px 0px 10px #212020;
+    transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    z-index: -8;
+}
+#pg-goku .hair7:after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    background-color: floralwhite;
+    top: 0px;
+    left: -48px;
+    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    
+}
+
+#pg-goku .hair8{
+    width: 55px;
+    height: 45px;
+    top: 37px;
+    left: 120px;
+    background-color: transparent;
+    border-radius:5px 40px 20px 10px;
+    box-shadow: -18px -15px 0 10px #212020;
+    -webkit-box-shadow: -18px -15px 0 10px #212020;
+    -moz-box-shadow: -18px -15px 0 10px #212020;
+/*    border-top: 25px solid #212020;*/
+    transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    z-index: -9;
+}
+#pg-goku .hair8-o{
+    width: 45px;
+    height: 45px;
+    top: 24px;
+    left: 113px;
+    background-color: transparent;
+    border-radius:5px 30px 20px 10px;
+    border-top: 8px solid rgba(186, 183, 183, 0.3);
+    transform: rotate(-33deg);
+    -webkit-transform: rotate(-33deg);
+    z-index: -8;
+}
+#pg-goku .hair9{
+    width: 85px;
+    height: 65px;
+    top: 8px;
+    left: 107px;
+    background-color: transparent;
+    border-radius:50%;
+    box-shadow: -20px -30px 0 10px #212020;
+    -webkit-box-shadow: -20px -30px 0 10px #212020;
+    -moz-box-shadow: -20px -30px 0 10px #212020;
+    transform: rotate(-44deg);
+    -webkit-transform: rotate(-44deg);
+    z-index: -10;
+}
+#pg-goku .hair9-o{
+    width: 35px;
+    height: 55px;
+    top: -22px;
+    left: 118px;
+    background-color: transparent;
+    border-radius:5px 40px 20px 10px;
+    border: 1px solid transparent;
+    border-top: 10px solid rgba(186, 183, 183, 0.3);
+    border-left: 0px solid transparent;
+    transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    z-index: 8;
+}
+#pg-goku .frangia-sx{
+    width: 40px;
+    height: 40px;
+    top:30px;
+    left:50px;
+    background-color: transparent;
+    border-radius:50% 5px;
+    box-shadow: 10px -10px 0px 5px #212020;
+    -webkit-box-shadow: 10px -10px 0px 5px #212020;
+    -mox-box-shadow: 10px -10px 0px 5px #212020;
+    transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    z-index: 20;
+}
+#pg-goku .frangia-sx-s{
+    width: 40px;
+    height: 40px;
+    top:30px;
+    left:50px;
+    background-color: transparent;
+    border-radius:50% 5px;
+    box-shadow: 10px -10px 0px 5px #ffee43;
+    -webkit-box-shadow: 10px -10px 0px 5px #ffee43;
+    -mox-box-shadow: 10px -10px 0px 5px #ffee43;
+    transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    z-index: 20;
+}
+
+#pg-goku .frangia-sx2{
+    width: 20px;
+    height: 35px;
+    top: 14px;
+    left:40px;
+    background-color: transparent;
+    border-radius:5px 40px 40px 10px; 
+    box-shadow: 15px 8px 0 2px #212020;
+    -webkit-box-shadow: 15px 8px 0 2px #212020;
+    -moz-box-shadow: 15px 8px 0 2px #212020;
+    transform: rotate(228deg);
+    -webkit-transform: rotate(228deg);
+    z-index: 8;
+}
+#pg-goku .frangia-sx2-s{
+    width: 20px;
+    height: 35px;
+    top: 14px;
+    left:40px;
+    background-color: transparent;
+    border-radius:5px 40px 40px 10px; 
+    box-shadow: 15px 8px 0 2px #ffee43;
+    -webkit-box-shadow: 15px 8px 0 2px #ffee43;
+    -moz-box-shadow: 15px 8px 0 2px #ffee43;
+    transform: rotate(228deg);
+    -webkit-transform: rotate(228deg);
+    z-index: 8;
+}
+#pg-goku .frangia-dx2{
+    width: 30px;
+    height: 35px;
+    top: 25px;
+    left:90px;
+    background-color: transparent;
+    border-radius:5px 40px 10px 40px;
+    box-shadow: 8px 15px 0 2px #212020;
+    -webkit-box-shadow: 8px 15px 0 2px #212020;
+    -moz-box-shadow: 8px 15px 0 2px #212020;
+/*    border-bottom: 14px solid #212020;*/
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    z-index: 20;
+}
+#pg-goku .frangia-dx2-s{
+    width: 30px;
+    height: 35px;
+    top: 23px;
+    left:90px;
+    background-color: transparent;
+    border-radius:5px 40px 10px 40px;
+    box-shadow: 8px 15px 0 2px #ffee43;
+    -webkit-box-shadow: 8px 15px 0 2px #ffee43;
+    -moz-box-shadow: 8px 15px 0 2px #ffee43;
+/*    border-bottom: 14px solid #212020;*/
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    z-index: 20;
+}
+
+#pg-goku .frangia-dx-o{
+    width: 38px;
+    height: 35px;
+    top: 6px;
+    left:58px;
+    background-color: transparent;
+    border-radius:5px 20px 0px 60px;
+    border-bottom: 25px solid rgba(33, 32, 32, 0.1);
+    transform: rotate(-145deg);
+    -webkit-transform: rotate(-145deg);
+    z-index: 0;
+
+}
+
+#pg-goku .figure{
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 80px;
+    background-color: #f8481f;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#pg-goku .manica-sx{
+    width: 90%;
+    height: 80%;
+    left: -70%;
+    background-color: blue;
+    border-radius: 50%;
+}
+#pg-goku .manica-dx{
+    width: 90%;
+    height: 80%;
+    left:78%;
+    background-color: blue;
+    border-radius: 50%;
+}
+#pg-goku .manica{
+    width: 40%;
+    height: 50%;
+    left:31%;
+    top: -28%;
+    background-color: blue;
+    border-radius: 50%;
+}
+#pg-goku .manica::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -7px;
+    background-color:rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    z-index:;
+
+}
+#pg-goku .logo-centrale {
+    width: 20px;
+    height: 20px;
+    left:73px;
+    top: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+#pg-goku .lettera {
+    width: 3px;
+    height: 10px;
+    left: 6px;
+    top: 5px;
+    border-left: 1px solid #000;
+}
+#pg-goku .lettera:before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 5px;
+    left: -3.5px;
+    top: 2px;
+    border-left: 1px solid #000;
+    transform: rotate(-170deg);
+    -webkit-transform: rotate(-170deg);
+    border-radius: 50%;
+}
+#pg-goku .lettera:after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 3px;
+    left: 0px;
+    top: 2px;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    border-right: 1px solid #000;
+
+    border-radius: 50%;
+}
+#pg-goku .letteratop{
+    width: 3px;
+    height: 7px;
+    left: 11px;
+    top: 5px;
+    border-left: 1px solid #000;
+}
+#pg-goku .letteratop:before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 2px;
+    left: -2px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#pg-goku .letteratop:after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 3px;
+    top: 3px;
+    left: -2px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#pg-goku .letterabottom{
+    width: 2px;
+    height: 2px;
+    left: 11px;
+    top: 12.5px;
+    border: 1px solid #000;
+}
+
+/*  Supersayan  */
+
+#pg-goku .hair-s-base{
+    width: 80px;
+    height:35px;
+    left: 25px;
+    top: -15px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: #ffee43;
+}
+#pg-goku .s {
+    box-shadow:#ffee43;
+}
+
+#pg-goku .hair-s{
+    width:50px;
+    height: 50px;
+    background-color:#ffee43;
+    top:-48px;
+    left:46px;
+    border-radius:2px 100px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    box-shadow:inset 0px 5px rgba(252, 252, 252, 0.44);
+}
+
+#pg-goku .hair-sx{
+    width:40px;
+    height: 40px;
+    background-color:#ffee43;
+    top:5px;
+    left:3px;
+    border-radius:2px 100px;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    z-index: -10;
+    box-shadow:inset 0px 5px rgba(252, 252, 252, 0.44);
+}
+#pg-goku .hair-sx2{
+    width:40px;
+    height: 40px;
+    background-color:#ffee43;
+    top:-20px;
+    left:15px;
+    border-radius:2px 100px;
+    transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    z-index: -10;
+    box-shadow:inset 0px 5px rgba(252, 252, 252, 0.44);
+}
+
+#pg-goku .hair-sx3{
+    width:40px;
+    height: 40px;
+    background-color:#ffee43;
+    top:-40px;
+    left:32px;
+    border-radius:2px 100px;
+    transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    box-shadow:inset 0px 5px rgba(252, 252, 252, 0.44);
+}
+#pg-goku .hair-sx-mini{
+    width:30px;
+    height: 30px;
+    background-color:#ffee43;
+    top:30px;
+    left:5px;
+    border-radius:2px 100px;
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    z-index: -10;
+    box-shadow:inset 0px 5px rgba(252, 252, 252, 0.44);
+}
+#pg-goku .hair-dx{
+    width:40px;
+    height: 40px;
+    background-color:#ffee43;
+    top:5px;
+    left:95px;
+    border-radius:2px 100px;
+    transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    z-index: -10;
+    box-shadow:inset 0px 5px rgba(252, 252, 252, 0.44);
+}
+#pg-goku .hair-dx2{
+    width:40px;
+    height: 40px;
+    background-color:#ffee43;
+    top:-20px;
+    left:85px;
+    border-radius:2px 100px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: -10;
+    box-shadow:inset 0px 5px rgba(252, 252, 252, 0.44);
+}
+
+#pg-goku .hair-dx3{
+    width:40px;
+    height: 40px;
+    background-color:#ffee43;
+    top:-40px;
+    left:69px;
+    border-radius:2px 100px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: -10;
+    box-shadow:inset 0px 5px rgba(252, 252, 252, 0.44);
+}
+#pg-goku .hair-dx-mini{
+    width:30px;
+    height: 30px;
+    background-color:#ffee43;
+    top:27px;
+    left:108px;
+    border-radius:2px 100px;
+    transform: rotate(75deg);
+    -webkit-transform: rotate(75deg);
+    z-index: -20;
+    box-shadow:inset 0px 5px rgba(252, 252, 252, 0.44);
+
+}
+
+
+#pg-goku .sasso{
+    width: 10px;
+    height: 10px;
+    background-color: saddlebrown;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 1px 1px #553118;
+    animation: primo_sasso 5s infinite;
+    -webkit-animation: primo_sasso 5s infinite;
+}
+#pg-goku .sasso2{
+    width: 5px;
+    height: 5px;
+    left:50px;
+    top:100px;
+    background-color: saddlebrown;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 1px 1px #553118;
+    z-index: 20;
+    animation: secondo_sasso 5s infinite;
+    -webkit-animation: secondo_sasso 5s infinite;
+}
+#pg-goku .sasso3{
+    width: 10px;
+    height: 10px;
+    left: 120px;
+    top: 70px;
+    background-color: saddlebrown;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 1px 1px #553118;
+    animation: terzo_sasso 5s infinite;
+    -webkit-animation: terzo_sasso 5s infinite;
+}
+#pg-goku .esplosione{
+    width: 300%;
+    height: 300%;
+    top:-50%;
+    left: -50%;
+    border-radius: 50%;
+    background-color: yellow;
+    z-index: 50;
+    animation: esplosione 5s infinite;
+    -webkit-animation: esplosione 5s infinite;
+}
+#pg-goku .normal {
+	visibility:visible;
+    animation: normale 5s infinite;
+    -webkit-animation: normale 5s infinite;
+}
+#pg-goku .sayan {
+	visibility: hidden;
+    animation: sayan 5s infinite;
+    -webkit-animation: sayan 5s infinite;
+}
+@keyframes esplosione{
+    0%,29%,41%,100%{width: 0%;height: 0%; top: 50%;left:50%;}
+    30%,32%{width: 200%;height: 200%; top:-50%; left: -50%;opacity: 1;}
+    40%{width: 200%;height: 200%; top:-50%; left: -50%;opacity: 0;}
+}
+@keyframes normale{
+    0%,29%,91%,100%{visibility: visible;}
+    30%,90%{visibility: hidden;}
+}
+@keyframes sayan{
+    31%,89%{visibility: visible;}
+    0%,30%,90%,100%{visibility: hidden;}
+}
+
+@keyframes mouth{
+    0%,91%,100%{height: 10px;background-color: #fcb2b2;}
+    29%{height: 3px;background-color: #fcb2b2;}
+    30%,90%{height: 1px;background-color: #555454;}
+}
+@keyframes occhi-sayan{
+    0%,15%,91%,100%{background-color: #000;}
+    21%,30%{background-color: #fff;}
+    31%,90%{background-color: #00ceb8;}
+}
+@keyframes eyebrows-sayan{
+    0%,10%,91%,100%{border-right: 5px solid #212020;}
+    25%,90%{border-right: 5px solid #e2d340;}
+}
+@keyframes primo_sasso{
+    0%,31%,90%,100%{opacity: 0;}
+    32%{opacity: 1;top: 35px;}
+    33%,50%,65%{left: -0.5px;}
+    42%,60%,65%{left: 0.5px;}
+    89%{top: 0px;left: 0;opacity: 1;}
+}
+@keyframes secondo_sasso{
+    0%,31%,90%,100%{opacity: 0;}
+    32%{opacity: 1;top: 125px;}
+    33%,50%,65%{left: 49.5px;}
+    42%,60%,75%{left: 50.5px;}
+    89%{top: 100px;left: 120;opacity: 1;}
+}
+@keyframes terzo_sasso{
+    0%,31%,90%,100%{opacity: 0;}
+    32%{opacity: 1;top:95px;}
+    33%,50%,65%{left: 119.5px;}
+    42%,60%,75%{left: 120.5px;}
+    89%{top: 70px;left: 120;opacity: 1;}
+}
+
+@-webkit-keyframes esplosione{
+    0%,29%,41%,100%{width: 0%;height: 0%; top: 50%;left:50%;}
+    30%,32%{width: 200%;height: 200%; top:-50%; left: -50%;opacity: 1;}
+    40%{width: 200%;height: 200%; top:-50%; left: -50%;opacity: 0;}
+}
+@-webkit-keyframes normale{
+    0%,29%,91%,100%{visibility: visible;}
+    30%,90%{visibility: hidden;}
+}
+@-webkit-keyframes sayan{
+    31%,89%{visibility: visible;}
+    0%,30%,90%,100%{visibility: hidden;}
+}
+
+@-webkit-keyframes mouth{
+    0%,91%,100%{height: 10px;background-color: #fcb2b2;}
+    29%{height: 3px;background-color: #fcb2b2;}
+    30%,90%{height: 1px;background-color: #555454;}
+}
+@-webkit-keyframes occhi-sayan{
+    0%,15%,91%,100%{background-color: #000;}
+    21%,30%{background-color: #fff;}
+    31%,90%{background-color: #00ceb8;}
+}
+@-webkit-keyframes eyebrows-sayan{
+    0%,10%,91%,100%{border-right: 5px solid #212020;}
+    25%,90%{border-right: 5px solid #e2d340;}
+}
+@-webkit-keyframes primo_sasso{
+    0%,31%,90%,100%{opacity: 0;}
+    32%{opacity: 1;top: 35px;}
+    33%,50%,65%{left: -0.5px;}
+    42%,60%,65%{left: 0.5px;}
+    89%{top: 0px;left: 0;opacity: 1;}
+}
+@-webkit-keyframes secondo_sasso{
+    0%,31%,90%,100%{opacity: 0;}
+    32%{opacity: 1;top: 125px;}
+    33%,50%,65%{left: 49.5px;}
+    42%,60%,75%{left: 50.5px;}
+    89%{top: 100px;left: 120;opacity: 1;}
+}
+@-webkit-keyframes terzo_sasso{
+    0%,31%,90%,100%{opacity: 0;}
+    32%{opacity: 1;top:95px;}
+    33%,50%,65%{left: 119.5px;}
+    42%,60%,75%{left: 120.5px;}
+    89%{top: 70px;left: 120;opacity: 1;}
+}

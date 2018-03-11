@@ -1,0 +1,202 @@
+
+   
+    <div class="luffy_n-container">
+        <div class="luffy_n-nome-personaggio">
+            <div class="luffy_n-figure">
+                <div class="luffy_n-x_1"></div>
+                <div class="luffy_n-x_2"></div>
+                <div class="luffy_n-giacca_sx"></div>
+                <div class="luffy_n-giacca_sx luffy_n-colletto_sx"></div>
+                <div class="luffy_n-giacca_dx"></div>
+                <div class="luffy_n-giacca_dx luffy_n-colletto_dx"></div>
+                <div class="luffy_n-manica_sx"></div>
+                <div class="luffy_n-manica_dx"></div>
+                <div class="luffy_n-ombra-f"></div>
+           </div>
+            <div class="luffy_n-cappello luffy_n-c1">
+                <div class="luffy_n-luce_c"></div>
+           </div>
+            <div class="luffy_n-fascia-r"></div>
+            <div class="luffy_n-cappello luffy_n-c2"></div>
+            <div class="luffy_n-cappello luffy_n-c3"></div>
+            <div class="luffy_n-hair luffy_n-h13"></div>
+            <div class="luffy_n-hair luffy_n-h14"></div>
+            <div class="luffy_n-hair luffy_n-h15"></div>
+            <div class="luffy_n-hair luffy_n-h16"></div>
+            <div class="luffy_n-hair luffy_n-h17"></div>
+            <div class="luffy_n-hair luffy_n-h18"></div>
+            <div class="luffy_n-hair luffy_n-h19"></div>
+            <div class="luffy_n-hair luffy_n-h20"></div>
+            <div class="luffy_n-face">
+                <div class="luffy_n-mouth_close">
+                    <div class="luffy_n-ombra_mouth"></div>
+                    <div class="luffy_n-ombra_mouth2"></div>
+                    <div class="luffy_n-mouth_sorriso"></div>
+               </div>
+                <div class="luffy_n-eyes_open">
+                    <div class="luffy_n-eye-dx_o"></div>
+                    <div class="luffy_n-eye-sx_o"></div>
+                    <div class="luffy_n-pupilla_dx"></div>
+                    <div class="luffy_n-pupilla_sx"></div>
+                    <div class="luffy_n-sopracciglia_sx"></div>
+                    <div class="luffy_n-sopracciglia_dx"></div>
+                </div>
+                <div class="luffy_n-cicatrice_open">
+                    <div class="luffy_n-cicatrice_o"></div>
+                    <div class="luffy_n-cicatrice2_o"></div>
+                    <div class="luffy_n-cicatrice3_o"></div>
+                </div>
+            </div> 
+            <div class="luffy_n-hair luffy_n-h0"></div>           
+            <div class="luffy_n-hair luffy_n-h1"></div>
+            <div class="luffy_n-hair luffy_n-h2"></div>
+            <div class="luffy_n-hair luffy_n-h3"></div>
+            <div class="luffy_n-hair luffy_n-h4"></div>
+            <div class="luffy_n-hair luffy_n-h5"></div>
+            <div class="luffy_n-hair luffy_n-h6"></div>
+            <div class="luffy_n-hair luffy_n-h7"></div>
+            <div class="luffy_n-hair luffy_n-h8"></div>
+            <div class="luffy_n-hair luffy_n-h9"></div>
+            <div class="luffy_n-hair luffy_n-h10"></div>
+            <div class="luffy_n-hair luffy_n-h11"></div>
+            <div class="luffy_n-hair luffy_n-h12"></div>
+            <div class="luffy_n-hair luffy_n-h21"></div>
+            <div class="luffy_n-cerchio_animazione"></div>
+      </div>
+    </div>
+
+    <div class="luffy_r-container">
+        <div class="luffy_r-nome-personaggio">
+            <div class="luffy_r-figure">
+                <div class="luffy_r-x_1"></div>
+                <div class="luffy_r-x_2"></div>
+                <div class="luffy_r-x_3"></div>
+                <div class="luffy_r-x_4"></div>
+                <div class="luffy_r-giacca_sx"></div>
+                <div class="luffy_r-giacca_sx luffy_r-colletto_sx"></div>
+                <div class="luffy_r-giacca_dx"></div>
+                <div class="luffy_r-giacca_dx luffy_r-colletto_dx"></div>
+                <div class="luffy_r-manica_sx"></div>
+                <div class="luffy_r-manica_dx"></div>
+                <div class="luffy_r-ombra-f"></div>
+            </div>
+            <div class="luffy_r-cappello luffy_r-c1">
+                <div class="luffy_r-luce_c"></div>
+            </div>
+            <div class="luffy_r-fascia-r"></div>
+            <div class="luffy_r-cappello luffy_r-c2"></div>
+            <div class="luffy_r-cappello luffy_r-c3"></div>
+            <div class="luffy_r-hair luffy_r-h13"></div>
+            <div class="luffy_r-hair luffy_r-h14"></div>
+            <div class="luffy_r-hair luffy_r-h15"></div>
+            <div class="luffy_r-hair luffy_r-h16"></div>
+            <div class="luffy_r-hair luffy_r-h17"></div>
+            <div class="luffy_r-hair luffy_r-h18"></div>
+            <div class="luffy_r-hair luffy_r-h19"></div>
+            <div class="luffy_r-hair luffy_r-h20"></div>
+            <div class="luffy_r-face">
+                <div class="luffy_r-mouth_close">
+                    <div class="luffy_r-ombra_mouth"></div>
+                    <div class="luffy_r-ombra_mouth2"></div>
+                    <div class="luffy_r-mouth_arr"></div>
+                </div>
+                <div class="luffy_r-eyes_open">
+                    <div class="luffy_r-eye-dx_o"></div>
+                    <div class="luffy_r-eye-sx_o"></div>
+                    <div class="luffy_r-eye-dx_o2"></div>
+                    <div class="luffy_r-eye-sx_o2"></div>
+                    <div class="luffy_r-pupilla_dx"></div>
+                    <div class="luffy_r-pupilla_sx"></div>
+                    <div class="luffy_r-sopracciglia_sx"></div>
+                    <div class="luffy_r-sopracciglia_dx"></div>
+                </div>
+                <div class="luffy_r-cicatrice_open">
+                    <div class="luffy_r-cicatrice_o"></div>
+                    <div class="luffy_r-cicatrice2_o"></div>
+                    <div class="luffy_r-cicatrice3_o"></div>
+                </div>
+            </div> 
+            <div class="luffy_r-hair luffy_r-h0"></div>           
+            <div class="luffy_r-hair luffy_r-h1"></div>
+            <div class="luffy_r-hair luffy_r-h2"></div>
+            <div class="luffy_r-hair luffy_r-h3"></div>
+            <div class="luffy_r-hair luffy_r-h4"></div>
+            <div class="luffy_r-hair luffy_r-h5"></div>
+            <div class="luffy_r-hair luffy_r-h6"></div>
+            <div class="luffy_r-hair luffy_r-h7"></div>
+            <div class="luffy_r-hair luffy_r-h8"></div>
+            <div class="luffy_r-hair luffy_r-h9"></div>
+            <div class="luffy_r-hair luffy_r-h10"></div>
+            <div class="luffy_r-hair luffy_r-h11"></div>
+            <div class="luffy_r-hair luffy_r-h12"></div>
+            <div class="luffy_r-hair luffy_r-h21"></div>
+            <div class="luffy_r-fumo_sx">
+                <div class="luffy_r-fumo1"></div>
+                <div class="luffy_r-fumo2"></div>
+                <div class="luffy_r-fumo3"></div>
+                <div class="luffy_r-fumo4"></div>
+                <div class="luffy_r-fumo5"></div>
+                <div class="luffy_r-fumo6"></div>
+            </div>
+            <div class="luffy_r-fumo_dx">
+                <div class="luffy_r-fumo1"></div>
+                <div class="luffy_r-fumo2"></div>
+                <div class="luffy_r-fumo3"></div>
+                <div class="luffy_r-fumo4"></div>
+                <div class="luffy_r-fumo5"></div>
+                <div class="luffy_r-fumo6"></div>
+                <div class="luffy_r-fumo7"></div>
+                <div class="luffy_r-fumo8"></div>
+            </div>
+            <div class="luffy_r-fumo_up">
+                <div class="luffy_r-fumo1"></div>
+                <div class="luffy_r-fumo2"></div>
+                <div class="luffy_r-fumo3"></div>
+                <div class="luffy_r-fumo4"></div>
+                <div class="luffy_r-fumo5"></div>
+                <div class="luffy_r-fumo6"></div>
+            </div>
+        </div>
+        <div class="luffy_r-cerchio_animazione"></div>
+        <div class="luffy_r-cerchio_animazione luffy_r-cerchio2"></div>
+        <div class="luffy_r-contenitore_righe">
+            <div class="luffy_r-righe luffy_r-rb1"></div>
+            <div class="luffy_r-righe luffy_r-rb2"></div>
+            <div class="luffy_r-righe luffy_r-rb3"></div>
+            <div class="luffy_r-righe luffy_r-rb4"></div>
+            <div class="luffy_r-righe luffy_r-rb5"></div>
+            <div class="luffy_r-righe luffy_r-rb6"></div>
+            <div class="luffy_r-righe luffy_r-rb7"></div>
+            <div class="luffy_r-righe luffy_r-rb8"></div>
+            <div class="luffy_r-righe luffy_r-rb9"></div>
+            <div class="luffy_r-righe luffy_r-rb10"></div>
+            <div class="luffy_r-righe luffy_r-rb11"></div>
+            <div class="luffy_r-righe luffy_r-rb12"></div>
+            <div class="luffy_r-righe luffy_r-rb13"></div>
+            <div class="luffy_r-righe luffy_r-rb14"></div>
+            <div class="luffy_r-righe luffy_r-rb15"></div>
+            <div class="luffy_r-righe luffy_r-rb16"></div>
+            <div class="luffy_r-righe luffy_r-rb17"></div>
+            <div class="luffy_r-righe luffy_r-rb18"></div>
+            <div class="luffy_r-righe luffy_r-rb19"></div>
+            <div class="luffy_r-righe luffy_r-rb20"></div>
+            <div class="luffy_r-righe luffy_r-rb21"></div>
+            <div class="luffy_r-righe luffy_r-rb22"></div>
+            <div class="luffy_r-righe luffy_r-rb23"></div>
+            <div class="luffy_r-righe luffy_r-rb34"></div>
+            <div class="luffy_r-righe luffy_r-rb25"></div>
+            <div class="luffy_r-righe luffy_r-rb26"></div>
+            <div class="luffy_r-righe luffy_r-rb27"></div>
+            <div class="luffy_r-righe luffy_r-rb28"></div>
+            <div class="luffy_r-righe luffy_r-rb29"></div>
+            <div class="luffy_r-righe luffy_r-rb30"></div>
+            <div class="luffy_r-righe luffy_r-rb31"></div>
+            <div class="luffy_r-righe luffy_r-rb32"></div>
+            <div class="luffy_r-righe luffy_r-rb33"></div>
+            <div class="luffy_r-righe luffy_r-rb34"></div>
+            <div class="luffy_r-righe luffy_r-rb35"></div>
+            <div class="luffy_r-righe luffy_r-rb36"></div>
+            <div class="luffy_r-righe luffy_r-rb37"></div>
+            <div class="luffy_r-righe luffy_r-rb38"></div>
+        </div>
+    </div>

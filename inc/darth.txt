@@ -1,0 +1,60 @@
+
+    <div class="dart_fener-container">
+        <div class="dart_fener-nome-personaggio">
+            <div class="dart_fener-mantello_sx2"></div>
+            <div class="dart_fener-mantello_dx2"></div>
+            <div class="dart_fener-figure">
+                <div class="dart_fener-manica_sx6"></div>
+                <div class="dart_fener-manica_dx6"></div>
+                <div class="dart_fener-manica_sx5"></div>
+                <div class="dart_fener-manica_dx5"></div>
+                <div class="dart_fener-manica_sx4"></div>
+                <div class="dart_fener-manica_dx4"></div>
+                <div class="dart_fener-manica_sx3"></div>
+                <div class="dart_fener-manica_dx3"></div>
+                <div class="dart_fener-manica_sx2"></div>
+                <div class="dart_fener-manica_dx2"></div>
+                <div class="dart_fener-manica_sx"></div>
+                <div class="dart_fener-manica_dx"></div>
+            </div>
+            <div class="dart_fener-mantello_sx"></div>
+            <div class="dart_fener-mantello_dx"></div>
+            <div class="dart_fener-copri_mantello-sx"></div>
+            <div class="dart_fener-copri_mantello-dx"></div>
+            <div class="dart_fener-ombra-f"></div>
+            <div class="dart_fener-elmo-inf_t"></div>
+            <div class="dart_fener-elmo-sx"></div>
+            <div class="dart_fener-elmo-dx"></div>
+            <div class="dart_fener-face">
+                <div class="dart_fener-luce_elmo-sx2"></div>
+                <div class="dart_fener-luce_elmo-dx2"></div>
+                <div class="dart_fener-luce_elmo-centrale"></div>
+                <div class="dart_fener-luce_elmo-centrale2"></div>
+                <div class="dart_fener-luce_elmo-centrale2"></div>
+            </div>
+            <div class="dart_fener-luce_elmo-sx"></div>
+            <div class="dart_fener-luce_elmo-dx"></div>
+            <div class="dart_fener-bocca5"></div>
+            <div class="dart_fener-bocca6"></div>
+            <div class="dart_fener-bocca1"></div>
+            <div class="dart_fener-bocca2"></div>
+            <div class="dart_fener-bocca4"></div>
+            <div class="dart_fener-bocca7"></div>
+            <div class="dart_fener-bocca8"></div>
+            <div class="dart_fener-bocca9"></div>
+            <div class="dart_fener-bocca10"></div>
+            <div class="dart_fener-bocca11"></div>
+            <div class="dart_fener-bocca12"></div>
+            <div class="dart_fener-bocca13"></div>
+            <div class="dart_fener-bocca14"></div>
+            <div class="dart_fener-bocca15"></div>
+            <div class="dart_fener-bocca16"></div>
+            <div class="dart_fener-bocca17"></div>
+            <div class="dart_fener-bocca18"></div>
+            <div class="dart_fener-bocca19"></div>
+            <div class="dart_fener-bocca20"></div>
+            <div class="dart_fener-bocca3"></div>
+        </div>
+        <div class="dart_fener-spada"></div>
+    </div>
+

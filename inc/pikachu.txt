@@ -1,0 +1,20 @@
+
+    <div id="pikachu">
+        <div class="container">
+            <div class="pikachu">
+                <div class="figure"></div>
+                <div class="face">
+                    <div class="eye-dx"></div>
+                    <div class="eye-sx"></div>
+                    <div class="nose"></div>
+                    <div class="mouth"></div>
+                    <div class="cheek-dx"></div>
+                    <div class="cheek-sx"></div>
+                </div>
+            </div>
+        </div>
+        <div class="extra-container">
+            <div class="ear-dx"></div>
+            <div class="ear-sx"></div>
+        </div>
+    </div>

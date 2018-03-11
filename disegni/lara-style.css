@@ -1,0 +1,537 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+.laracontainer{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: floralwhite;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 40px auto;
+    z-index: -100;
+  
+}
+div{
+    position: absolute;
+}
+.laracroft{
+    width: 70%;
+    height: 70%;
+    bottom: 0px;
+    left:15%;
+}
+
+.laraface{
+    width: 70%;
+    height: 65%;
+    background-color:#FBE1D5;
+    border-radius: 50%;
+    left: 15%;
+    border-bottom: 1px solid;
+}
+.laraface:before, .laraface:after{
+    content:"";
+    position:absolute;
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fccdb7;
+    z-index: -5;
+}
+.laraface:before{
+    left:-6px;
+    top:38px;
+}
+.laraface:after{
+    top: 38px;
+    left: 80px;
+}
+
+#laraciocca{
+    top: -10%;
+    right: 10px;
+    height: 94px;
+    width: 40px;
+    border-right: #2f0d0c solid 30px;
+    border-radius: 5px 100px 100px 50px;
+    transform: rotate(-25deg);
+    left: 40px;
+}
+
+#laraciocca2{
+    top: -15%;
+    right: 10px;
+    height: 94px;
+    width: 40px;
+    border-right: #2f0d0c solid 30px;
+    border-radius: 5px 100px 100px 50px;
+    transform: rotate(-875deg);
+    right: 31px;
+    z-index: 10;
+}
+
+#laraciocca3{
+    top: -25%;
+    height: 75px;
+    width: 30px;
+ background-color: #210a09;
+      border-radius: 30% 200% 80% 70%;
+    transform: rotate(-40deg);
+    right: 0px;
+    z-index: 10;
+}
+
+#laraciocca4{
+    top: 25%;
+    height: 34px;
+    width: 28px;
+ background-color: #210a09;
+    border-radius: 5px 50px 500px 50px;
+    transform: rotate(-25deg);
+    right: -17px;
+    z-index: 9;
+}
+
+#laraciocca5{
+     top: 28%;
+    height: 34px;
+    width: 28px;
+ background-color: #210a09;
+    border-radius: 5px 50px 500px 50px;
+    transform: rotate(-15deg);
+    right: -15px;
+    z-index: 9;
+}
+
+#laraciocca6{
+    top: -5%;
+    height: 36px;
+    width: 20px;
+    border-right: #210a09 solid 3px;
+    border-radius: 50px 100px 100px 50px;
+    transform: rotate(-875deg);
+    right: 35px;
+    z-index: 9;
+    animation: croftciocca 2s linear infinite alternate;
+    
+}
+
+@keyframes croftciocca {
+    0% {right: 35px}
+    25% {right: 34.5px; transform: rotate(-876deg)}
+    50% {right: 34px; transform: rotate(-877deg)}
+    100% {right: 33.5px; transform: rotate(-878deg)}
+}
+
+#laraciocca7{
+    top: -0%;
+    right: 10px;
+    height: 74px;
+    width: 40px;
+    border-right: #2f0d0c solid 30px;
+    border-radius: 5px 100px 100px 50px;
+    transform: rotate(-1deg);
+    left: 45px;
+}
+.laraeye-sx {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    z-index: 5;
+  /*  left: calc(50% - 50px);*/
+    width: 23px;
+    height: 13px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 65px;
+    border-bottom-right-radius: 90px;
+    border: 1.2px solid;
+    overflow: hidden;
+    transform: rotate(36deg)
+}
+
+
+
+#larabordoeyesx{
+    border: 0.1px solid black;
+    top: 39.7px;
+    left: 15.5px;
+    width: 27px;
+    transform: rotate(37deg);
+    z-index: 5;
+}
+
+#larabordoeyesx1{
+   border: 0.1px solid black;
+    top: 39.6px;
+    left: 15.5px;
+    width: 27px;
+    transform: rotate(37.1deg);
+    z-index: 5;
+}
+
+#larabordoeyesx2{
+    border: 0.1px solid black;
+    top: 39.5px;
+    left: 15.5px;
+    width: 27px;
+    transform: rotate(37.2deg);
+    z-index: 5;
+}
+
+#larabordoeyesx3{
+    border: 0.1px solid black;
+    top: 39.4px;
+    left: 15.5px;
+    width: 27px;
+    transform: rotate(37.3deg);
+    z-index: 5;
+}
+#larabordoeyesx4{
+    border: 0.1px solid black;
+    top: 39.3px;
+    left: 15.5px;
+    width: 27px;
+    transform: rotate(37.1deg);
+    z-index: 5;
+}
+#larabordoeyesx5{
+     border: 0.1px solid black;
+    top: 39.2px;
+    left: 15.5px;
+    width: 27px;
+    transform: rotate(37deg);
+    z-index: 5;
+}
+#larabordoeyesx6{
+     border: 0.1px solid black;
+    top: 39.1px;
+    left: 15.5px;
+    width: 27px;
+    transform: rotate(36.9deg);
+    z-index: 5;
+}
+#larabordoeyesx7{
+     border: 0.1px solid black;
+    top: 39px;
+    left: 15.5px;
+    width: 27px;
+    transform: rotate(36.8deg);
+    z-index: 5;
+}
+
+#larabordoeyesx8{
+     border: 0.1px solid black;
+    top: 38.9px;
+    left: 15.5px;
+    width: 27px;
+    transform: rotate(36.7deg);
+    z-index: 5;
+}
+
+#larabordoeyesx9{
+    border: 0.1px solid black;
+    top: 38.8px;
+    left: 15.5px;
+    width: 27px;
+    transform: rotate(36.6deg);
+    z-index: 5;
+}
+
+#laramascara{
+    top: 34px;
+    left: 15px;
+  /*  left: calc(50% - 50px);*/
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1.2px solid;
+    overflow: hidden;
+    transform: rotate(50deg)
+}
+
+#laramascara2{
+    top: 34px;
+    left: 14px;
+  /*  left: calc(50% - 50px);*/
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1.2px solid;
+    overflow: hidden;
+    transform: rotate(60deg)
+}
+
+#laramascara3{
+    top: 37px;
+    left: 13px;
+  /*  left: calc(50% - 50px);*/
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1.2px solid;
+    overflow: hidden;
+    transform: rotate(80deg)
+}
+
+#laramascara4{
+    top: 34px;
+    right: 15px;
+  /*  left: calc(50% - 50px);*/
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1.2px solid;
+    overflow: hidden;
+    transform: rotate(-50deg)
+}
+
+#laramascara5{
+    top: 34px;
+    right: 14px;
+  /*  left: calc(50% - 50px);*/
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1.2px solid;
+    overflow: hidden;
+    transform: rotate(-60deg)
+}
+
+#laramascara6{
+    top: 37px;
+    right: 13px;
+  /*  left: calc(50% - 50px);*/
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1.2px solid;
+    overflow: hidden;
+    transform: rotate(-80deg)
+}
+#laraocchiodx{
+    width: 11px;
+    height: 11px;
+    background-color: saddlebrown;
+    border-radius: 50%;
+    border: 1px solid black;
+    right:24px;
+    top: 42px;
+    z-index: 6;
+
+}
+
+#laraocchiosx{
+    width: 11px;
+    height: 11px;
+    background-color: saddlebrown;
+    border-radius: 50%;
+    border: 1px solid black;
+    left:24px;
+    top: 42px;
+    z-index: 6;
+}
+
+#larapupillasx{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    left:28px;
+    top: 46px;
+    z-index: 7;
+}
+
+
+ .laraeye-dx{
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    z-index: 5;
+    /* left: calc(50% - 50px); */
+    width: 23px;
+    height: 13px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 65px;
+    border: 1.2px solid;
+    overflow: hidden;
+    transform: rotate(-36deg);
+}
+
+#larapupilladx{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    right:28px;
+    top: 46px;
+    z-index: 7;
+}
+
+.larasopraccigliasx{
+    border-radius: 5px 100px 10px;
+    top: 34px;
+    left: 21px;
+    width: 20px;
+    height: 4px;
+    background-color: #481e00;
+    transform: skew(33deg,219deg);
+    border-radius: 90%;
+}
+
+ .larasopraccigliadx{
+    border-radius: 5px 100px 10px;
+    top: 34px;
+    right: 17px;
+    width: 25px;
+    height: 3.5px;
+    background-color: #481e00;
+     transform: skew(-35deg,-214deg);
+    border-radius: 90%;
+}
+
+.larafigure{
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 80px;
+    background-color: #FBE1D5;
+    border-radius: 50%;
+     z-index: -1;
+}
+
+.laravestito{
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+   
+}
+
+#larascollatura {
+    width: 40%;
+    height: 33%;
+    background-color: #FBE1D5;
+    border-radius: 30%;
+    left: 31%;
+    top: -8%;
+    z-index: 1;
+}
+
+#larascollatura2 {
+     width: 26%;
+    height: 15%;
+    background-color: #FBE1D5;
+    border-radius: 20%;
+    left: 22%;
+    top:-3%;
+    z-index: 1;
+    transform: rotate(77deg);
+}
+
+#larascollatura3 {
+     width: 26%;
+    height: 15%;
+    background-color: #FBE1D5;
+    border-radius: 20%;
+    left: 53%;
+    top:-2%;
+    z-index: 1;
+    transform: rotate(-81deg);
+
+}
+
+#larabordino {
+    width:  98%;
+    height: 90%;
+    background-color: black;
+    border-radius: 30%;
+    left: %;
+    top: %;
+    overflow: hidden;
+}
+
+#laraazzurro {
+    width:  70%;
+    height: 70%;
+    background-color: #51e5c8;
+    border-radius: 22%;
+    left: 15.5%;
+    top: 30%;
+}
+
+#laraazzurro2{
+     width:  12%;
+    height: 51%;
+    background-color: #51e5c8;
+    border-radius: 50%;
+    left: 9.5%;
+    top: 30%;
+    overflow: hidden;
+    transform: rotate(24deg);
+}
+
+#laraazzurro3{
+     width:  12%;
+    height: 51%;
+    background-color: #51e5c8;
+    border-radius: 50%;
+    left: 79.5%;
+    top: 30.5%;
+    overflow: hidden;
+    transform: rotate(-23deg);
+
+}
+
+#larabracciosx{
+    width:  20%;
+    height: 50%;
+    background-color: #FBE1D5;
+    border-radius: 50%;
+    left: -1%;
+    top: %;
+    overflow: hidden;
+    transform: rotate(20deg);
+}
+
+#larabracciodx{
+    width:  20%;
+    height: 50%;
+    background-color: #FBE1D5;
+    border-radius: 50%;
+    right: -1.5%;
+    overflow: hidden;
+    transform: rotate(-20deg);
+}
+
+
+.laramouth{
+     top: 76%;
+    left: 40%;
+    width: 20%;
+    height: 8%;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,1);
+    border-radius: 30%;
+    animation: larabocca 3s linear infinite alternate;
+
+}
+@keyframes larabocca {
+    0% {right: 35px}
+
+    100% {top: 76%; left: 41%; width: 19%; height: 8%;
+    border-bottom-right-radius: 70%}
+}

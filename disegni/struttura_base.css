@@ -1,0 +1,96 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: floralwhite;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 40px auto;
+    z-index: -100;
+  
+}
+div{
+    position: absolute;
+}
+.nome-personaggio{
+    width: 70%;
+    height: 70%;
+    bottom: 0px;
+    left:15%;
+}
+
+.face{
+    width: 70%;
+    height: 65%;
+    background-color:#FBE1D5;
+    border-radius: 50%;
+    left: 15%;
+}
+.face:before, .face:after{
+    content:"";
+    position:absolute;
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fccdb7;
+    z-index: -5;
+}
+.face:before{
+    left:-6px;
+    top:38px;
+}
+.face:after{
+    top: 38px;
+    left: 80px;
+}
+
+.figure{
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 80px;
+    background-color: #102f5d;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
